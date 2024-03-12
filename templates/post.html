@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{% static "assets/style.css" %}">
+</head>
+<body>
+
+<div class="header">
+  <h2>{{post.title}}</h2>
+  <h6>{{post.created_at}}</h6>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+        <p class="post-content">{{post.body}}</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

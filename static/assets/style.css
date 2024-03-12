@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #222831;
+    color: #76ABAE;
+  }
+  a {
+    text-decoration: none;
+    color: #76ABAE;
+  }
+  
+  .header {
+    background-color: #31363F;
+    padding: 2px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: #31363F;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .post-content {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
